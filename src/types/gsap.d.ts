@@ -1,9 +1,9 @@
 declare module 'gsap-trial/SplitText' {
-  export const SplitText: any;
-  export default SplitText;
+  const SplitText: any;
+  export { SplitText };
 }
 
 declare module 'gsap-trial/ScrollSmoother' {
-  export const ScrollSmoother: any;
-  export default ScrollSmoother;
+  const ScrollSmoother: any;
+  export { ScrollSmoother };
 }
